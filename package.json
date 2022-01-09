@@ -1,0 +1,16 @@
+{
+  "name": "@serkans/status-codes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "pub": "git add . && git commit -m \"npm common module updates\" && npm version patch && npm run build && npm publish"
+  },
+  "keywords": [],
+  "author": "Serkan Soy",
+  "license": "ISC"
+}
