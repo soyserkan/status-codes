@@ -1,6 +1,6 @@
 {
   "name": "@serkans/status-codes",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -8,7 +8,7 @@
     "dist/**/*"
   ],
   "scripts": {
-    "pub": "git add . && git commit -m \"npm module updates\" && npm version patch && npm run build && npm publish"
+    "pub": "git add . && git commit -m \"updates\" && git push -u origin master && npm version patch && tsc && npm publish"
   },
   "keywords": [],
   "author": "Serkan Soy",
