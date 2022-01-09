@@ -8,7 +8,7 @@
     "dist/**/*"
   ],
   "scripts": {
-    "pub": "git add . && git commit -m \"npm common module updates\" && npm version patch && npm run build && npm publish"
+    "pub": "git add . && git commit -m \"npm module updates\" && npm version patch && npm run build && npm publish"
   },
   "keywords": [],
   "author": "Serkan Soy",
